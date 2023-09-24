@@ -18,7 +18,7 @@ public class Main {
                 {1, 2, 3},
                 {4, 5, 6}
         };
-
+        System.out.println("Matrix : ");
         printMatrix(matrix);
 
         int[][] transpose = new int[matrix[0].length][matrix.length];  // matrisin transpozunu for döngüsü kullanarak buldum.
@@ -27,7 +27,7 @@ public class Main {
                 transpose[j][i] = matrix[i][j];
             }
         }
-
+        System.out.println("Transpose : ");
         printMatrix(transpose);
     }
 }
